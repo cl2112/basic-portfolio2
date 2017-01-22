@@ -26,7 +26,7 @@ h6 {
 	font-size: .75em;
 }
 body {
-	background-color: green;
+	
 }
 header {
 	background-color: white;
@@ -40,7 +40,7 @@ header {
 }
 .mainContent {
 	float: left;
-	width: 589px;
+	width: 588px;
 	background-color: white;
 	padding: 30px;
 	overflow: auto;	
@@ -59,8 +59,27 @@ header {
 }
 .connect {
 	float: left;
-	width: 269px;
+	width: 228px;
 	margin: 0 0 0 20px;
-	background-color: orange;
+	padding: 20px;
+	background-color: white;
 	border: 1px solid grey;
+}
+.connect h2 {
+	padding: 0 0 20px;
+	border-bottom: 3px solid grey;
+	margin: 0 0 20px;
+}
+.connect img {
+	height: 60px;
+	width: 60px;
+}
+.connect ul {
+	font-size: 0px;
+}
+.connect li {
+	display: inline-block;
+	width: 33%;
+	font-size: 18px;
+	text-align: center;
 }
