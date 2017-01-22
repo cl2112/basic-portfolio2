@@ -30,6 +30,36 @@ body {
 }
 header {
 	background-color: white;
+	overflow: auto;
+	border-bottom: 2px solid grey;
+}
+.headerContent {
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+}
+header h1 {
+	background-color: teal;
+	float: left;
+	color: white;
+	padding: 20px;
+}
+.headerContent ul {
+	font-size: 0;
+	float: right;
+	margin: 27.5px 0;
+}
+.headerContent li {
+	font-size: 17px;
+	display: inline-block;
+}
+.headerContent a {
+	display: inline-block;
+	padding: 0 15px 0;
+}
+.headerContent #portLink {
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
 }
 .allContent {
 	height: 100%;
@@ -60,7 +90,7 @@ header {
 .connect {
 	float: left;
 	width: 228px;
-	margin: 0 0 0 20px;
+	margin: 0 0 0 40px;
 	padding: 20px;
 	background-color: white;
 	border: 1px solid grey;
