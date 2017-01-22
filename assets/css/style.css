@@ -2,6 +2,7 @@ html, body {
 	height: 100%;
 	width: 100%;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url(../images/sandpaper.png);
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -27,12 +28,39 @@ h6 {
 body {
 	background-color: green;
 }
+header {
+	background-color: white;
+}
 .allContent {
 	height: 100%;
 	width: 960px;
+	margin: 0 auto;
+	padding: 30px 0;
 	overflow: auto;
 }
-header {
+.mainContent {
+	float: left;
+	width: 589px;
 	background-color: white;
-
+	padding: 30px;
+	overflow: auto;	
+	border: 1px solid grey;
+}
+.mainContent h1 {
+	padding: 10px 0 30px;
+	border-bottom: 3px solid grey;
+	margin: 0 0 20px;
+}
+.mainContent #bioPic {
+	height: 200px;
+	width: 200px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.connect {
+	float: left;
+	width: 269px;
+	margin: 0 0 0 20px;
+	background-color: orange;
+	border: 1px solid grey;
 }
