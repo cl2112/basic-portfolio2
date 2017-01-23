@@ -2,6 +2,7 @@ html, body {
 	height: 100%;
 	width: 100%;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
 	background-image: url(../images/sandpaper.png);
 }
 h1, h2, h3, h4, h5, h6 {
@@ -38,7 +39,7 @@ h6 {
 header {
 	background-color: white;
 	overflow: auto;
-	border-bottom: 2px solid grey;
+	border-bottom: 2px solid #777777;
 }
 .headerContent {
 	width: 960px;
@@ -46,7 +47,7 @@ header {
 	overflow: auto;
 }
 header h1 {
-	background-color: teal;
+	background-color: #4aaaa5;
 	float: left;
 	color: white;
 	padding: 20px;
@@ -65,8 +66,8 @@ header h1 {
 	padding: 0 15px 0;
 }
 .headerContent #portLink {
-	border-left: 1px solid grey;
-	border-right: 1px solid grey;
+	border-left: 1px solid #777777;
+	border-right: 1px solid #777777;
 }
 .allContent {
 	height: 100%;
@@ -81,13 +82,13 @@ header h1 {
 	background-color: white;
 	padding: 30px;
 	overflow: auto;	
-	border: 1px solid grey;
+	border: 1px solid #777777;
 }
 .mainContent h1 {
 	padding: 10px 0 30px;
-	border-bottom: 3px solid grey;
+	border-bottom: 3px solid #777777;
 	margin: 0 0 20px;
-	color: teal;
+	color: #4aaaa5;
 }
 .mainContent #bioPic {
 	height: 200px;
@@ -101,13 +102,13 @@ header h1 {
 	margin: 0 0 0 40px;
 	padding: 20px;
 	background-color: white;
-	border: 1px solid grey;
+	border: 1px solid #777777;
 }
 .connect h2 {
 	padding: 0 0 20px;
-	border-bottom: 3px solid grey;
+	border-bottom: 3px solid #777777;
 	margin: 0 0 20px;
-	color: teal;
+	color: #4aaaa5;
 }
 .connect img {
 	height: 60px;
@@ -124,9 +125,9 @@ header h1 {
 }
 footer {
 	width: 100%;
-	background-color: grey;
+	background-color: #777777;
 	color: white;
-	border-top: 5px solid teal;
+	border-top: 5px solid #4aaaa5;
 	clear: both;
 }
 .footerContent {
@@ -148,6 +149,18 @@ footer {
     width: 180px;
     padding: 10px;
     color: white;
-    background-color: teal;
+    background-color: #4aaaa5;
     text-align: center;
+}
+#formName, #formEmail, #formMessage {
+	width: 98%;
+	padding: 4px 5px;
+	margin: 10px 0 20px;
+}
+#btnSubmit {
+	background-color: #4aaaa5;
+	padding: 10px 25px;
+	text-align: center;
+	color: white;
+	width: 75px;
 }
